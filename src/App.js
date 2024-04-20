@@ -5,7 +5,7 @@ const App = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    const ws = new WebSocket('ws://localhost:3000');
+    const ws = new WebSocket('ws:///192.168.18.241:3000');
     ws.onopen = () => {
       console.log('Connected to WebSocket server');
     };
