@@ -21,7 +21,7 @@ const App = () => {
 }
 
   useEffect(() => {
-    const ws = new WebSocket('ws://192.168.229.69:3000');
+    const ws = new WebSocket('ws://192.168.229.11:3000');
     ws.onopen = () => {
       console.log('Connected to WebSocket server');
     };
