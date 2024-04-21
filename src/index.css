@@ -14,3 +14,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.glow{
+  box-shadow: 0 0 20px #ffffff16;
+}
